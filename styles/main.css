@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+}
+
+#sea-battle__arena__total, #sea-battle__arena__accuracy {
+    font-size: 2vw;
+}
+
+.sea-battle__arena {
+    border-collapse: collapse;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+.sea-battle__arena__block {
+    margin: auto;
+    width: 80%;
+    padding: 40px;
+    border-bottom: 1px solid grey;
+}
+
+.sea-battle__cell {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+}
+
+.sea-battle__cell__damage {
+    background: deepskyblue;
+}
+
+.sea-battle__cell__damage.sea-battle__ship {
+    background: orange;
+}
+
+.sea-battle__ship__destroy {
+    background: red !important;
+}
+
+.sea-battle__arena__game-over {
+    width: 300px;
+    margin: auto;
+    font-size: 3vw;
+}
+
+.sea-battle__arena__hidden {
+    display: none;
+}

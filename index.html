@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sea Battle</title>
+  <link rel="stylesheet" type="text/css" href="./styles/main.css"/>
+
+  <script type="text/javascript" src="./scripts/index.js"></script>
+  <script type="text/javascript" src="./scripts/ship.js"></script>
+</head>
+<body>
+  <h2 class="sea-battle__arena__block">Sea Battle</h2>
+
+  <div class="sea-battle__arena__block">
+    <table id="sea-battle__arena" class="sea-battle__arena">
+    </table>
+  </div>
+
+  <div id="sea-battle__arena__results" class="sea-battle__arena__block sea-battle__arena__hidden">
+    <div class="sea-battle__arena__game-over">
+      <div>Game Over</div>
+      <div id="sea-battle__arena__total"></div>
+      <div id="sea-battle__arena__accuracy"></div>
+    </div>
+  </div>
+
+  <script>
+    var seabattle = new Application.Arena();
+  </script>
+</body>
+</html>
