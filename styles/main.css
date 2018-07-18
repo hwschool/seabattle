@@ -3,7 +3,7 @@ body {
 }
 
 #sea-battle__arena__total, #sea-battle__arena__accuracy {
-    font-size: 2vw;
+    font-size: 16px;
 }
 
 .sea-battle__arena {
@@ -40,7 +40,7 @@ body {
 .sea-battle__arena__game-over {
     width: 300px;
     margin: auto;
-    font-size: 3vw;
+    font-size: 22px;
 }
 
 .sea-battle__arena__hidden {
